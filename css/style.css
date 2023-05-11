@@ -1,0 +1,373 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html{font-size: 62.5%;}
+.text-center{text-align: center;}
+img{
+    max-width:100%;
+    height:auto;
+    }
+/* ヘッダー ---------------------------------*/
+.box {
+    border: black 1px solid; /*境界線の指定*/
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 24px;
+    padding-left:50px;
+    max-width:100%;
+    }
+.nav__list{
+    display: flex;
+    text-transform: uppercase;
+    }
+.nav__item{
+    font-size: 21px;
+    padding-right: 50px;
+    }
+a {text-decoration: none;}
+/* TOPイメージ */
+.box2{
+    width:100%;
+    height:auto;
+    position: relative;
+    }
+.top__img{
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: white;
+    }
+.text1{
+    font-size:43px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    }
+.text2{
+    font-size: 31px;
+    font-weight: 100;
+    }
+/* about-------------------------------- */
+.title_y{
+    text-transform: uppercase;
+    padding-top:60px;
+    padding-bottom:30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    }
+.t1{
+    padding-bottom:60px;
+    font-size: 18px;
+    }
+p { font-size: 16px;}
+.t2{ padding-bottom: 40px;}
+.t3{ padding-bottom: 80px;}
+/* adout画像4枚 */
+.box3{
+    display: flex;
+    justify-content: center;
+    flex-shrink:0;
+    max-width:100%;
+    }
+.box3__ >img{width: 24.8%;
+}
+/* course-------------------------------- */
+.title_b{
+    text-transform: uppercase;
+    padding-top:60px;
+    padding-bottom:30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    }
+.t4{ padding-bottom: 60px;}
+.box4 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.imgbox{width: 50%;}
+.imgbox > img{width: 100%;}
+.textbox{
+    background-color: #F0F0F0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    }
+.textbox2{
+    padding-left: 50px;
+    transform: translate(0%,-15%);
+    }
+.textbox3{
+    margin-right: auto;
+    transform: translate(35%,-15%);
+    }
+.title_b2{
+    text-transform: uppercase;
+    padding-top:60px;
+    padding-bottom:40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    }
+/* NEWS-------------------------------- */
+.news__list{
+    display: flex;
+    justify-content: center;
+    }
+.news__l1{width: 300px;
+    padding-right: 30px;}
+.news__l2{width: 300px;}
+.news__img{margin: 0 0 30px;}
+.news__t{margin: 30 0 24px;}
+.news__bk:hover{
+    outline: red 1px solid;
+    background-color: white;
+    }
+p{text-decoration: none;}
+
+.t5{
+    font-size: 14px;
+    margin: 30px 0 24px;
+    }
+.t6{font-size: 14px;}
+.space{padding-top: 60px;
+    padding-bottom: 60px;}
+.btn1{
+    display: block;
+    width: 300px;
+    padding: 21px 0;
+    margin: auto;
+    background-color: #ffd61a;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    }
+/* ACCESS------------------------------- */
+.back_color{background-color: #F0F0F0;}
+.Access_box{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    width: 550px;
+    }
+.access_title{
+    padding: 0 0 30px;
+    text-align: left;
+    width: 180px;
+    }
+.access_ans{
+    padding: 0 0 30px;
+    text-align: left;
+    width: 370px;
+    }
+.access_title2{
+    text-align: left;
+    width: 180px;
+    }
+.access_ans2{
+    text-align: left;
+    width: 370px;
+    }
+/* CONTACT------------------------------- */
+.t7{ padding-bottom: 30px;}
+.t8{ padding-bottom: 70px;}
+.form_01{
+    width: 640px;
+    margin: auto;
+    }
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #bfbfbf 2px solid;
+    width: 640px;
+    height: 52px;
+    }
+.form_title{
+    text-align: left;
+    width: 208px;
+    height: 200px;
+    margin: 18px 16px 18px;
+    font-size: 15px;
+    }
+.item_left{
+    border-left: #bfbfbf 2px solid;
+    text-align: left;
+    height: 52px;
+    }
+.form_item{
+    text-align: left;
+    width: 328px;
+    height: 36px;
+    margin: 8px 8px 8px;
+    }
+.form_parts{
+    box-sizing: border-box;
+    border:  #bfbfbf 1px solid;
+    font-size: 15px;
+    width: 100%;
+    height: 36px;
+    }
+.p2 > br {
+    display: block;
+    content: "";
+    margin: 5px 0;
+    }
+.p2{font-size: 14.5px;}
+
+/* プルダウン選択 */
+.form_title2{
+    text-align: left;
+    width: 208px;
+    margin: 9px 16px 9px;
+    }
+select {
+    -webkit-appearance: none;
+    appearance: none; /* デフォルトの矢印を非表示 */
+    }
+/* プルダウン  ここまで   */
+
+.form_inner3{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #bfbfbf 2px solid;
+    width: 640px;
+    height: 215px;
+    }
+.form_item3{
+    text-align: left;
+    height: 215px;
+    }
+.item_left3{
+    border-left: #bfbfbf 2px solid;
+    text-align: left;
+    height: 215px;
+    }
+.form_title3{
+    text-align: left;
+    width: 208px;
+    margin: 18px 16px 18px;
+    height: 215px;
+    }
+.p1{
+    font-size: 14px;
+    white-space:nowrap}
+    /* 志望動機_複数選択_チェックボックス */
+    .checkbox {
+        padding: 12px 8px 24px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+      .checkbox-Input {
+        margin: 0;
+        width: 0;
+        opacity: 0;
+      }
+      .checkbox:hover > .checkbox-square {
+        background: #DDDDDD !important;
+        border: solid 1px #f0eee9;
+      }
+      .checkbox-Input:focus + .checkbox-square {
+        background: #DDDDDD !important;
+        border: solid 1px #f0eee9;
+      }
+      .checkbox-Input:checked + .checkbox-square {
+        border: solid 1px #f0eee9;
+        background: #FFFFFF;
+      }
+      .checkbox-Input:checked + .checkbox-square::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hlY2siPjxwb2x5bGluZSBwb2ludHM9IjIwIDYgOSAxNyA0IDEyIj48L3BvbHlsaW5lPjwvc3ZnPg==") no-repeat center;
+        background-size: contain;
+      }
+      .checkbox-square {
+        position: relative;
+        top: 0;
+        padding-left: 8px;
+        display: block;
+        width: 12px;
+        height: 20px;
+        border: 0 #888888;
+        background: #f0eee9;
+        border-radius: 4px;
+      }
+      .checkbox-text {
+        margin-left: 30px;
+        display: block;
+        font-size: 14px;
+        white-space:nowrap
+      }
+    /*   チェックボックス ここまで   */
+
+/* 詳細エリア */
+.form_parts2{
+    box-sizing: border-box;
+    border:  #bfbfbf 1px solid;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+    }
+.form_inner4{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #bfbfbf 2px solid;
+    border-bottom: #bfbfbf 2px solid;
+    width: 640px;
+    height: 116px;
+    margin-bottom: 30px;
+    }
+.form_title4{
+    text-align: left;
+    width: 208px;
+    height: 116px;
+    margin: 18px 16px 18px;
+    }
+.item_left4{
+    border-left: #bfbfbf 2px solid;
+    text-align: left;
+    height: 116px;
+    }
+.form_item4{
+    text-align: left;
+    width: 328px;
+    height: 116px;
+    margin: 8px 8px 8px;
+    }
+.btn_m{
+    display: block;
+    width: 300px;
+    padding: 21px 0;
+    margin: auto;
+    background-color: #0077d9;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    }
+/* footer------------------------------ */
+.btn_pagetop{
+    display: block;
+    background-color: #707070;
+    width: 100%;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 140px;
+}
+.p3{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}

@@ -1,0 +1,212 @@
+.text-center{text-align: center;}
+.main_box{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.side {
+   background-color:#6C676E;
+   width:250px;
+   height:1000px;
+   text-align:center;
+    } 
+ 
+.content {
+   background-color:white;
+   width:550px;
+   height:1000px;
+   text-align:center;
+    }
+ 
+article {
+   display:flex;/*サイドバーとメインコンテンツを横並びにする指定をした*/
+    }
+ 
+
+
+/* ヘッダー */
+
+.rogo{
+    width: 300px;
+    padding-left:20px;
+}
+
+.box {
+    width:auto;
+    border: black 1px solid; /*境界線の指定*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    width: 800px;
+    height: 100px;
+    }
+.nav__list{
+    display: flex;
+    text-transform: uppercase;
+    }
+.nav__item{
+    font-size: 18px;
+    padding-right: 30px;
+    }
+a {text-decoration: none;}
+
+/* スライドショー */
+.slider {
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+    animation-duration: 1s;
+    }
+  .slider-item {
+    width: 800px;
+    float: left;
+    }
+  img{width:100%;}
+  .slider-inner {
+    width: 5600px;
+    animation: slider 40s infinite ease;
+    }
+  @keyframes slider {
+      0% {transform: translateX(0);}
+      14.2% {transform: translateX(-800px);}
+      28.4% {transform: translateX(-1600px);}
+      42.6% {transform: translateX(-2400px);}
+      56.8% {transform: translateX(-3200px);}
+      71% {transform: translateX(-4000px);}
+      85.2% {transform: translateX(-4800px);}
+      100% {transform: translateX(0);}
+    }
+    img{
+        animation-play-state: paused;/*コレが一時停止*/
+    }
+
+.main{margin: 0 auto;
+    display: flex;}
+
+.title_b{
+    text-transform: uppercase;
+    padding-top:60px;
+    padding-bottom:30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0077d9;
+    }
+.title_w{
+    text-transform: uppercase;
+    padding-top:60px;
+    padding-bottom:30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FAF9F7;
+    }
+p { font-size: 16px;}
+.t1{ padding-bottom: 20px;
+    padding-top: 40px;}
+.t2{
+    padding-bottom:60px;
+    color: #FAF9F7;
+    font-size: 18px;
+    }
+
+.btn1{
+    display: block;
+    width: 210px;
+    height: 30px;
+    color: black;
+    font-size: 14px;
+    padding: 8px 0 8px;
+    border-top: #C0C0C0 2px solid;
+    text-align: left;
+    margin: auto;
+    }
+.btn1 > br{
+    display: block;
+    content: "";
+    margin: 3px 0;
+    }
+.box_s{
+    margin: auto;
+    width: 230px;
+    height:795px;
+    border: 2.5px solid #C0C0C0; 
+    background-color:#FAF9F7;
+    overflow-y: scroll; /* 縦方向にスクロール可能にする */
+    }
+/* コンタクトーーーーーーーーーーーーーーー */
+.t7{ padding-bottom: 30px;}
+.t8{ padding-bottom: 70px;}
+.form_01{
+    width: 800px;
+    margin: auto;
+    background-color:#bce2e8 ;
+    }
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #bfbfbf 2px solid;
+    width: 640px;
+    height: 52px;
+    }
+.form_title{
+    text-align: left;
+    width: 208px;
+    height: 200px;
+    margin: 18px 16px 18px;
+    font-size: 15px;
+    }
+.item_left{
+    border-left: #bfbfbf 2px solid;
+    text-align: left;
+    height: 52px;
+    }
+.form_item{
+    text-align: left;
+    width: 328px;
+    height: 36px;
+    margin: 8px 8px 8px;
+    }
+.form_parts{
+    box-sizing: border-box;
+    border:  #bfbfbf 1px solid;
+    font-size: 15px;
+    width: 100%;
+    height: 36px;
+    }
+.form_parts2{
+    box-sizing: border-box;
+    border:  #bfbfbf 1px solid;
+    font-size: 15px;
+    width: 100%;
+    height: 100px;
+    }
+.btn_m{
+    display: block;
+    width: 300px;
+    padding: 21px 0;
+    margin: auto;
+    background-color: #0077d9;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    }
+.space{padding-bottom: 60px;}
+/* footer------------------------------ */
+.btn_pagetop{
+    display: block;
+    background-color: #707070;
+    width: 800px;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+.p3{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
